@@ -7,14 +7,17 @@ import ReactDOM from "react-dom"
 // import FamiliaMoura from "./componentes/FamiliaMoura"
 import Familia from "./componentes/Familia"
 import Membro from "./componentes/Membro"
+import CompComFuncao from "./componentes/ComponenteComFunção"
 
 const elemento = document.getElementById("root")
 ReactDOM.render(
     <div>
-        <Familia sobrenome="Pereira">
+        <CompComFuncao />
+        <CompComFuncao />
+        {/* <Familia sobrenome="Pereira">
             <Membro nome="Andre" />
             <Membro nome="Lucia" />
-        </Familia>
+        </Familia> */}
         {/* <FamiliaMoura /> */}
         {/* <Multi /> */}
         {/* <CompA valor='Ola eu sou componente A' />
