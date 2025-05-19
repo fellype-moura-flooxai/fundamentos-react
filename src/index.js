@@ -8,12 +8,15 @@ import ReactDOM from "react-dom"
 // import Familia from "./componentes/Familia"
 // import Membro from "./componentes/Membro"
 // import CompComFuncao from "./componentes/ComponenteComFunção"
-import Pai from './componentes/Pai'
+// import Pai from './componentes/Pai'
+import ComponenteClasse from './componentes/ComponenteClasse'
 
 const elemento = document.getElementById("root")
 ReactDOM.render(
     <div>
-        <Pai />
+
+        <ComponenteClasse valor='sou um componente de classe' />
+        {/* <Pai /> */}
         {/* <CompComFuncao />
         <CompComFuncao /> */}
         {/* <Familia sobrenome="Pereira">
