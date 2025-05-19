@@ -2,15 +2,17 @@ import React from "react"
 import ReactDOM from "react-dom"
 
 // import PrimeiroComponente from "./componentes/PrimeiroComponente"
-import CompA, {  CompB as B } from "./componentes/DoisComponentes"
+// import CompA, {  CompB as B } from "./componentes/DoisComponentes"
 // import Multi from "./componentes/MultiElementos"
+import FamiliaMoura from "./componentes/FamiliaMoura"
 
 const elemento = document.getElementById("root")
 ReactDOM.render(
     <div>
+        <FamiliaMoura />
         {/* <Multi /> */}
-        <CompA valor='Ola eu sou componente A' />
-        <B valor='Ola eu sou componente B' />
+        {/* <CompA valor='Ola eu sou componente A' />
+        <B valor='Ola eu sou componente B' /> */}
         {/* <PrimeiroComponente valor="Olá React" /> */}
     </div>
     , elemento)
