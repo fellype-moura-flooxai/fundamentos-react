@@ -4,7 +4,7 @@ import ReactDOM from "react-dom"
 // import PrimeiroComponente from "./componentes/PrimeiroComponente"
 // import CompA, {  CompB as B } from "./componentes/DoisComponentes"
 // import Multi from "./componentes/MultiElementos"
-import FamiliaMoura from "./componentes/FamiliaMoura"
+// import FamiliaMoura from "./componentes/FamiliaMoura"
 import Familia from "./componentes/Familia"
 import Membro from "./componentes/Membro"
 
@@ -15,7 +15,7 @@ ReactDOM.render(
             <Membro nome="Andre" />
             <Membro nome="Lucia" />
         </Familia>
-        <FamiliaMoura />
+        {/* <FamiliaMoura /> */}
         {/* <Multi /> */}
         {/* <CompA valor='Ola eu sou componente A' />
         <B valor='Ola eu sou componente B' /> */}
